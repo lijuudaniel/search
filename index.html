@@ -13,6 +13,11 @@
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://kit.fontawesome.com/87f63208cd.js" crossorigin="anonymous"></script>
   <style>
   body{
       margin-top:20px;
@@ -42,7 +47,7 @@
       padding: 20px;
       border-radius: 3px;
       margin-bottom: 30px;
-      background-color: #1e1e1e;
+      background-color: #262626;
       border-radius: 15px;
       word-wrap: break-word;
 
@@ -64,10 +69,10 @@
 
   }
   .text-success {
-      color: #50c878!important;
+      color: #1DB954!important;
   }
   a {
-      color: #0892d0;
+      color: #90caee;
       text-decoration: none;
       background-color: transparent;
   }
@@ -120,9 +125,10 @@
   </style>
 </head>
 <body>
+    
   <div class="logo">
 
-    <p class="title" style="color:white;font-family: 'Rubik', sans-serif;">What's Liju?</p>
+    <p class="title" style="color:white;font-family: 'Rubik', sans-serif;"><span style="color:#90caee;font-weight:bold"><</span> What's Liju? <span style="color:#90caee;font-weight:bold">></span></p>
     <p class="tagline" style="color:white;font-family: 'Rubik', sans-serif;">
       Secure Search.<br /><br /><br /><br />Because it is all about me.
     </p>
@@ -139,7 +145,7 @@
                                 <div class="input-group">
                                     <input type="text" id="" name="" class="form-control" value="Liju Daniel">
                                     <div class="input-group-append">
-                                        <button type="button" class="btn waves-effect waves-light btn-custom"><i class="fa fa-search mr-1"></i>🔍 Search</button>
+                                        <button type="button" class="btn waves-effect waves-light btn-custom">🔍 Search</button>
                                     </div>
                                 </div>
                                 <div class="mt-4 text-center">
@@ -149,9 +155,19 @@
                     </div>
                     <!-- end row -->
                     <ul class="nav nav-tabs tabs-bordered">
-                        <li class="nav-item"><a href="#home" data-toggle="tab" aria-expanded="true" class="nav-link active">All results <span class="badge badge-success ml-1">5</span></a></li>
-                        <li class="nav-item"><a href="#users" data-toggle="tab" aria-expanded="false" class="nav-link">Admin<span class="badge badge-danger ml-1">1</span></a></li>
-                    </ul>
+                        <li class="nav-item">
+                            <a href="#home" data-toggle="tab" aria-expanded="true" class="nav-link active" style="font-family: 'Rubik', sans-serif;">
+                              <i class="fa-brands fa-searchengin"></i> All results <span class="badge badge-success ml-1">5</span>
+                            </a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a href="#users" data-toggle="tab" aria-expanded="false" class="nav-link" style="font-family: 'Rubik', sans-serif;">
+                              <i class="fa-regular fa-circle-user"></i> Admin<span class="badge badge-danger ml-1">1</span>
+                            </a>
+                          </li>
+                          
+                        </ul>
                     <div class="tab-content">
                         <div class="tab-pane active" id="home">
                             <div class="row">
@@ -159,7 +175,9 @@
                                     <div class="search-item">
                                         <h4 class="mb-1"><a href="https://lijuudaniel.github.io/website">Liju Daniel - Responsive Personal Website</a></h4>
                                         <div class="font-13 text-success mb-3">https://lijuudaniel.github.io/website</div>
-                                        <p class="mb-0 text-muted">Hey!😄I'm Liju Daniel💙 A Computer Science Student👨🏾‍🎓 and a Smartphone Wizard📱‍. Cricket is 🤍. Check me out!😉 About me💚 root@liju:~$ whoami Liju Daniel root@liju:~$ thissite --help This is my personal website with very basic info about me😉...</p>
+                                        <p class="mb-0 text-muted">Hey! I'm Liju Daniel.
+
+                                            I am a Computer Science graduate with a passion for leveraging technology to solve real-world challenges. Having gained scant but valuable experience in the IT industry, I've honed my skills in Bash and Java. Beyond the tech world, I'm an avid cricket enthusiast...</p>
                                     </div>
                                     <!-- <div class="search-item">
                                         <div class="media"><img class="d-flex mr-3 rounded-circle" src="images/circle-cropped.png" alt="Generic placeholder image" height="54">
@@ -218,7 +236,7 @@
                             <div class="search-item">
                                 <div class="media mt-1"><img class="d-flex mr-3 rounded-circle" src="images/bitmoji.png" alt="Generic placeholder image" height="54">
                                     <div class="media-body">
-                                        <h5 class="media-heading mt-0" ><a href="#" style="color:white;">Liju Daniel (@lijuudaniel)</a></h5>
+                                        <h5 class="media-heading mt-0" ><a href="https://instagram.com/lijuudaniel" style="color:white;">Liju Daniel (@lijuudaniel)</a></h5>
                                         <p class="font-13" style="color:white;"><b>Email:</b> <span><a href="#" class="text-muted">lijuudaniel@gmail.com</a></span></p>
                                         <!-- <p class="mb-0 font-13" style="color:white;"><b>Bio:</b>
                                             <br><span class="text-muted">Hey! This is Liju. I am the only User and the Admin of this site and the search results are only about me(for now).😂😌</span></p> -->
